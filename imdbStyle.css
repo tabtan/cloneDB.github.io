@@ -1,0 +1,75 @@
+body{
+    height: 100vh;
+    width:100vw;
+    background-color: rgba(103, 94, 94, 0.623) !important;
+}
+.input-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black; 
+height: 70px;
+}
+.searchbar-card{
+    display:flex;
+    position: relative;
+    
+
+}
+
+#logo{
+    height:65px; 
+   
+}
+#searchMovieName{
+    font-size: 30px;
+    border-radius: 25px;
+    margin-left: 10px;
+width: 700px;}
+#searchBtn{
+    
+  
+    font-size: 25px;
+    border: none;
+    background-color:black;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+.bi-search{
+    color: aliceblue;
+}
+#datalistOptions{
+    background-color: brown;
+}
+#movieDetailDisplay{
+    display:flex;
+    justify-content: center;
+   
+}
+.card{
+    margin-top: 50px;
+    width: 30rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+}
+.favCard{
+    margin-top: 50px;
+    width: 15rem;
+    border-style: solid;
+}
+#card-checkbox{
+ right: 0;
+}
+#movieRatingDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#favouriteMovieList{
+display: grid;
+grid-template-columns: repeat(8,200px);
+grid-gap: 100px;
+padding-left: 20px;
+}
